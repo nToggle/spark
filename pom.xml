@@ -64,10 +64,15 @@
 
   <distributionManagement>
     <repository>
-        <id>central</id>
-        <name>ntoggle-releases</name>
-        <url>https://ntoggle.jfrog.io/ntoggle/libs-releases-local</url>
+      <id>central</id>
+      <name>ntoggle-releases</name>
+      <url>https://ntoggle.artifactoryonline.com/ntoggle/libs-releases-local</url>
     </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>ntoggle-snapshots</name>
+      <url>https://ntoggle.artifactoryonline.com/ntoggle/libs-snapshots-local</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <mailingLists>
